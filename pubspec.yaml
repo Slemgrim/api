@@ -1,0 +1,14 @@
+name: recipr_api
+version: 0.0.1
+description: A sample command-line application.
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  logging: any
+  logging_handlers: any
+  mongo_dart: any
+  rpc: any
+  elastic_dart:
+    git: https://github.com/Pajn/ElasticDart.git
+dev_dependencies:
+  unittest: any
